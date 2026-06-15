@@ -95,28 +95,6 @@ The project utilizes 1,000+ simulated EV battery records containing:
 * Data Visualization
 * GitHub
 
-## Dashboard Screenshots
-
-### Executive Dashboard
-
-![Executive Dashboard](Screenshots/ExecutiveDashboard.png)
-
-### Battery Health Analytics
-
-![Battery Health Analytics](Screenshots/BatteryHealthAnalytics.png)
-
-### Predictive Failure Analysis
-
-![Predictive Failure Analysis](Screenshots/PredictiveFailureAnalysis.png)
-
-### Root Cause Analysis
-
-![Root Cause Analysis](Screenshots/RootCauseAnalysis.png)
-
-### Performance Drivers
-
-![Performance Drivers](Screenshots/PerformanceDrivers.png)
-
 ## Key Outcomes
 
 * Developed an end-to-end EV battery analytics solution using Power BI.
