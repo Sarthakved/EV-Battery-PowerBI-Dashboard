@@ -2,19 +2,20 @@
 
 ## Overview
 
-This project showcases an interactive Power BI dashboard developed to analyze EV battery performance, health, degradation trends, thermal behavior, and fault diagnostics. The dashboard transforms raw battery telemetry data into actionable insights for battery monitoring, predictive maintenance, and fleet performance management.
+An enterprise-style Power BI dashboard designed to analyze EV battery performance, degradation trends, thermal behavior, fault diagnostics, and predictive maintenance indicators. The solution transforms raw battery telemetry data into actionable business insights through advanced analytics, interactive reporting, and predictive risk assessment.
 
-## Business Objective
+## Business Problem
 
-Electric vehicle battery performance directly impacts vehicle range, safety, reliability, and maintenance costs. This dashboard helps stakeholders monitor battery health, identify potential failures, analyze degradation patterns, and make data-driven maintenance decisions.
+Battery health and reliability are critical factors in EV performance, maintenance planning, and operational costs. This dashboard enables stakeholders to monitor battery conditions, identify degradation patterns, detect high-risk batteries, and support proactive maintenance decisions.
 
 ## Dataset
 
-The dashboard is built using a dataset containing 1,000+ EV battery records with the following attributes:
+The project utilizes 1,000+ simulated EV battery records containing:
 
-* Battery Pack ID
+* Date
 * Vehicle Model
-* Battery Capacity (kWh)
+* Battery Pack ID
+* Capacity (kWh)
 * State of Charge (SOC)
 * State of Health (SOH)
 * Voltage
@@ -25,43 +26,65 @@ The dashboard is built using a dataset containing 1,000+ EV battery records with
 * Charge Time
 * Fault Status
 
-## Key Features
+## Dashboard Features
 
 ### Executive Dashboard
 
-* Fleet-level battery performance overview
+* Fleet-wide battery performance monitoring
 * Interactive KPI cards
-* Battery health monitoring
+* Dynamic measure selection
+* Executive commentary and insights
 
 ### Battery Health Analytics
 
-* SOH trend analysis
 * Battery Health Score calculation
-* Health categorization (Excellent, Good, Fair, Poor)
+* SOH degradation analysis
+* Vehicle-wise performance comparison
+* Remaining Useful Life (RUL) estimation
 
 ### Predictive Failure Analysis
 
+* Failure risk classification
 * High-risk battery identification
-* Failure-risk classification using battery health and temperature indicators
-* Proactive maintenance insights
+* Predictive maintenance indicators
+* Fault trend monitoring
 
-### Thermal Performance Analysis
+### Thermal Analysis
 
-* Temperature impact on battery degradation
+* Temperature impact on battery health
+* Thermal performance monitoring
 * Temperature vs SOH correlation analysis
 
-### Fault Diagnostics
+### Advanced Analytics
 
-* Fault distribution analysis
-* Fault trend monitoring
-* Vehicle-wise fault comparison
+* Drill-through reporting
+* Dynamic tooltips
+* What-if scenario analysis
+* Dynamic DAX measures
+* Interactive slicers and cross-filtering
+* Page navigation
+* Conditional formatting
+* Smart narratives
+* Key influencer analysis
+* Decomposition tree root-cause analysis
 
-### Interactive Reporting
+## Power BI Features Demonstrated
 
-* Dynamic slicers and filters
-* Cross-filtering across visuals
-* Drill-through pages for battery-level investigation
-* Interactive navigation and exploration
+* Data Modeling
+* DAX Measures & Calculated Columns
+* Drill-Through Pages
+* Custom Tooltips
+* Page Navigation
+* What-If Parameters
+* Dynamic Titles
+* Dynamic Measure Selection
+* Key Influencers Visual
+* Decomposition Tree
+* Smart Narrative
+* Conditional Formatting
+* Interactive Filtering
+* KPI Visuals
+* Predictive Analytics
 
 ## Tools & Technologies
 
@@ -72,35 +95,63 @@ The dashboard is built using a dataset containing 1,000+ EV battery records with
 * Data Visualization
 * GitHub
 
-## Key KPIs
+## Dashboard Screenshots
 
-* Average State of Health (SOH)
-* Average Temperature
-* Fault Count
-* Total Distance Travelled
-* Battery Health Score
-* Failure Risk Distribution
-* Fleet Performance Metrics
+### Executive Dashboard
 
-## Project Outcomes
+![Executive Dashboard](Screenshots/ExecutiveDashboard.png)
 
-* Developed advanced DAX measures and calculated columns.
-* Created predictive battery risk indicators.
-* Implemented drill-through reporting and interactive analytics.
-* Built executive-level dashboards for decision-making.
-* Applied EV battery domain knowledge to derive business insights.
+### Battery Health Analytics
 
-## Dashboard Preview
+![Battery Health Analytics](Screenshots/BatteryHealthAnalytics.png)
 
-![Executive Dashboard](EV-Battery-PowerBI-Dashboard\Executive Dashboard.png)
+### Predictive Failure Analysis
 
-![Battery Health Analytics](EV-Battery-PowerBI-Dashboard\Battery Detailed Analysis.png)
+![Predictive Failure Analysis](Screenshots/PredictiveFailureAnalysis.png)
 
+### Root Cause Analysis
+
+![Root Cause Analysis](Screenshots/RootCauseAnalysis.png)
+
+### Performance Drivers
+
+![Performance Drivers](Screenshots/PerformanceDrivers.png)
+
+## Key Outcomes
+
+* Developed an end-to-end EV battery analytics solution using Power BI.
+* Built advanced DAX measures for battery health monitoring and predictive analysis.
+* Implemented interactive reporting features to improve user experience and data exploration.
+* Created executive-level dashboards supporting data-driven maintenance and operational decisions.
+* Applied EV battery domain expertise to derive meaningful business insights from battery telemetry data.
+
+## Repository Structure
+
+```text
+EV-Battery-PowerBI-Dashboard
+│
+├── EV_Battery_Dashboard.pbix
+├── EV_Battery_Data.xlsx
+├── README.md
+│
+└── Screenshots
+    ├── ExecutiveDashboard.png
+    ├── BatteryHealthAnalytics.png
+    ├── PredictiveFailureAnalysis.png
+    ├── RootCauseAnalysis.png
+    └── PerformanceDrivers.png
+```
 
 ## Author
 
-Sarthak Vedpathak
+**Sarthak Vedpathak**
 
-## GitHub Repository
+Business Analyst | Technical Business Analyst | EV Battery Analytics | Power BI
 
-Add repository URL here.
+## Future Enhancements
+
+* Real-time battery telemetry integration
+* Azure Data Factory pipeline integration
+* Power BI Service deployment
+* Automated alerting and notifications
+* Machine learning-based battery failure prediction
